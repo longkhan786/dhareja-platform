@@ -1,1 +1,1 @@
-*.proto linguist-generated
+*.proto linguist-language=Protocol Buffers
