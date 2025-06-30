@@ -1,0 +1,7 @@
+[package]
+name = "enterprices_service"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Add dependencies here as needed
