@@ -1,1 +1,1 @@
-*.proto linguist-language=Protocol Buffers
+*.proto linguist-vendored
