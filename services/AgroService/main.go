@@ -19,10 +19,8 @@ func main() {
 
 	grpcServer := grpc.NewServer()
 
-	// 👇 Register your service
 	pb.RegisterAgroTradersServiceServer(grpcServer, &server.AgroService{})
 
-	// ✅ Enable reflection
 	reflection.Register(grpcServer)
 
 	log.Println("AgroService is running on port 50051...")
